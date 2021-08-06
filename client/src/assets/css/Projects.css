@@ -1,16 +1,47 @@
 .projects
 {
-    margin-top: 10%;
+    margin-top: 8%;
     height: 100vh;
     width: 100vw;
     z-index: inherit;
     z-index: 2 !important;
     box-shadow: 0px 0px 40px 170px var(--background) ;
     position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-heading
+{   
+    padding: 0 5%;
+    
+}
+
+.projects-heading p
 {
-    color: white;
-    padding: 0px 50px;
+    letter-spacing: 1px;
+    color: grey;
+    font-size: 0.9rem;
+}
+.projects-heading h1
+{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.project-list
+{
+    width: auto;
+    justify-self: center;
+    display: grid;
+    grid-gap: 1.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    margin: 50px 5%;
+}
+
+.project{
+    min-height: 350px;
+    
+    background-image: linear-gradient(rgb(122,252,211) 0%, rgb(101,187,247) 100%);
 }
