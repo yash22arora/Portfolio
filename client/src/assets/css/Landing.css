@@ -41,8 +41,27 @@
 }
 .header-text h1
 {
-    font-size: 4.5rem;
+    font-size: 4.7rem;
+    transition: 1.4s;
+    cursor: pointer;
+
+    background-image: linear-gradient(to right, rgb(147, 94, 245) 0%, rgb(237,148,204) 60%);
+    background-image: url('../media/gradient.gif');
+    background-size: 200%;
+    background-position: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
+.header-text h1:hover
+{
+    -webkit-text-fill-color: white;
+    -moz-text-fill-color: white;
+}
+
+
+
 p.tagline
 {
     font-size: 1.3rem;

@@ -4,7 +4,7 @@
     width: 100vw;
     z-index: inherit;
     z-index: 2 !important;
-    box-shadow: 0px 0px 50px 100px var(--background) ;
+    box-shadow: 0px 0px 45px 100px var(--background) ;
     position: relative;
     color: white;
     display: flex;
