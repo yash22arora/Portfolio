@@ -1,8 +1,12 @@
 import "../assets/css/Projects.css";
 import Project from "./Project";
-const Projects =()=>
+const Projects =(props)=>
 {
-    var count=1;
+
+    
+    let count=0;
+    const color =["pink", "blue"];
+    
     return(
         <div className="projects" id="projects">
            <div className="projects-heading">
@@ -10,11 +14,14 @@ const Projects =()=>
                 <h1>Things I've worked on 👨🏼‍💻</h1>
            </div>
            <div className="project-list">
-                <Project className="blue"/>
-                <Project className="pink"/>
-                <Project className="blue"/>
-                <Project className="pink"/>
-                <Project className="blue"/>
+                {
+                    props.projects.map((project)=>{
+                        
+                        let colorNo= count%2;
+                        count++;
+                        return(<Project project={project} className={color[colorNo]}/>)
+                    })
+                }
 
            </div>
         </div>

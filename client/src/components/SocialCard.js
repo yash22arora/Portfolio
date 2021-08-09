@@ -1,6 +1,6 @@
 import "../assets/css/SocialMedia.css";
 
-import{FaLinkedin, FaGithub, FaTwitter, FaMedium, FaInstagram, FaDev } from 'react-icons/fa';
+import{FaLinkedin, FaGithub, FaTwitter, FaMedium, FaInstagram, FaDev,FaBehance } from 'react-icons/fa';
 const SocialCard =(props)=>{
     
     const footerClass = "card-footer card-footer-"+ props.footer;
@@ -20,10 +20,12 @@ const SocialCard =(props)=>{
         return(<FaMedium className="icon"/>)
         else if(logo=="dev.to")
         return(<FaDev className="icon"/>)
+        else if(logo=="behance")
+        return(<FaBehance className="icon"/>)
     }
     
     return(
-        <a href={props.link}>
+        <a href={props.link} target="_blank">
         <div className="social-card">
                 <div className="card-top">
                     <h2>{props.title}</h2>
