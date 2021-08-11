@@ -64,6 +64,8 @@
     color: white;
     background-color: var(--background);
 }
+
+
 .project-wrapper
 {
     position: relative;
@@ -101,7 +103,8 @@
 {
     /* fill: black; */
     transform: scale(1.3);
-    margin: 0px 10px;
+    margin: 0px 20px;
+    margin-right: 0;
     cursor: pointer;
 }
 
@@ -109,7 +112,8 @@
 {
     /* color: black; */
     transform: scale(1.4);
-    margin: 0px 10px;
+    margin: 0px 20px;
+    margin-right: 0;
     margin-right: 0;
     font-weight: 700;
     cursor: pointer;
@@ -117,14 +121,36 @@
 .behance
 {
     transform: scale(1.4);
-    margin: 0px 10px;
+    margin: 0px 20px;
+    margin-right: 0;
     cursor: pointer;
 }
 
+.project-text
+{
+    position: relative;
+    margin: 15px 0 20px;
+}
 .project-title
 {
     font-size: 3.7rem;
+    margin: 0;
 }
+.project-body
+{
+    margin: 20px 0;
+    display: none;
+}
+
+.project-wrapper:hover > .project > .project-text > .project-body
+{
+    display: block;
+}
+.project-wrapper:hover > .project > .project-text > .project-title
+{
+    font-size: 3.3rem;
+}
+
 .tech-used
 {
     text-align: center;
@@ -184,6 +210,14 @@
     {
         font-size: 3.2rem;
     }
+    .project-wrapper:hover > .project > .project-text > .project-title
+    {
+        font-size: 2.9rem;
+    }
+    .project-body
+    {
+        font-size: 0.9rem;
+    }
     .projects-heading h1
     {
         font-size: 2.1rem;
@@ -220,5 +254,9 @@
     .project-title
     {
         font-size: 2.5rem;
+    }
+    .project-wrapper:hover > .project > .project-text > .project-title
+    {
+        font-size: 2.1rem;
     }
 }

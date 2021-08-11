@@ -9,31 +9,36 @@ function App() {
   
   const projects = [
     {
-      title:"Notefy",
+      title:"Notefy", 
+      body:"A note-making webapp with an elegant and intuitive UI",
       techStack: ["React", "API", "Django"],
       github:"https://github.com/yash22arora/notefy",
       external:""
     },
     {
       title:"Amazon UX Case Study",
+      body:"Recognising pain points in the Amazon shopping app",
       techStack: ["Figma", "UI/UX"],
       behance:"https://www.behance.net/gallery/125089737/Amazon-App-UX-Case-Study",
       external:""
     },
     {
       title:"Servatom",
+      body:"The website for Servatom, an organisation of creative people",
       techStack: ["React", "Github API"],
       github:"https://github.com/Servatom",
       external:"https://servatom.com/"
     },
     {
       title:"CTF Portal",
+      body:"The online web portal to host a CTF event for my society",
       techStack: ["React", "MongoDB", "NodeJs"],
       github:"",
       external:"https://drive.google.com/drive/folders/1GPvQykH30aIUUadY-kLmG-4XRcKDlarB?usp=sharing"
     },
     {
       title:"Second Hand",
+      body:"An online platform for buying and selling used objects within college",
       techStack: ["HTML", "CSS", "Python"],
       github:"https://github.com/Servatom/Second-Hand",
       external:""

@@ -31,7 +31,10 @@ const Project=(props)=>{
                         :null
                     }
                 </div>
-                <h1 className="project-title">{props.project.title}</h1>
+                <div className="project-text">
+                    <h1 className="project-title">{props.project.title}</h1>
+                    <p className="project-body">{props.project.body}</p>
+                </div>
                 <div className="tech-used">
                     {/* <span>API</span>
                     <span>React</span> */}
