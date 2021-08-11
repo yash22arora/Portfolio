@@ -33,7 +33,7 @@ function App() {
       title:"CTF Portal",
       body:"The online web portal to host a CTF event for my society",
       techStack: ["React", "MongoDB", "NodeJs"],
-      github:"",
+      github:"https://github.com/OWASP-STUDENT-CHAPTER/CTF",
       external:"https://drive.google.com/drive/folders/1GPvQykH30aIUUadY-kLmG-4XRcKDlarB?usp=sharing"
     },
     {

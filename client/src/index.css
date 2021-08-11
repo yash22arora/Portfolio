@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 /* font-family: 'Quicksand', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+/* font-family: 'Comic Neue', cursive; */
 :root
 {
   --background : rgb(15, 15, 15);

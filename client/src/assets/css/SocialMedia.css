@@ -68,10 +68,12 @@
 .card-top h2
 {
     margin: 0;
-    font-family: 'Dancing Script', cursive;
-    letter-spacing: 3px;
-    font-size: 2rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0px;
+    font-size: 1.9rem;
     color: rgb(141, 141, 141);
+    font-weight: 700;
 }
 .card-footer
 {
