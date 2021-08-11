@@ -17,7 +17,7 @@ function App() {
     {
       title:"Amazon UX Case Study",
       techStack: ["Figma", "UI/UX"],
-      behance:"https://www.behance.net/yashvararora",
+      behance:"https://www.behance.net/gallery/125089737/Amazon-App-UX-Case-Study",
       external:""
     },
     {

@@ -3,6 +3,9 @@
 /* font-family: 'MonteCarlo', cursive; */
 /* font-family: 'Dancing Script', cursive; */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
 :root
 {
   --background : rgb(15, 15, 15);

@@ -2,8 +2,7 @@
 {
     margin-top: 6%;
     width: 100vw;
-    z-index: inherit;
-    z-index: 2 !important;
+    z-index: 3;
     box-shadow: 0px 0px 45px 100px var(--background) ;
     position: relative;
     color: white;
@@ -134,4 +133,92 @@
 {
     margin: 0px 10px;
     font-weight: 700;
+}
+
+@media (min-width:1100px)
+{
+    .projects
+    {
+    box-shadow: 0px -50px 45px 100px var(--background) ;
+
+    }
+}
+@media (min-width:822px) and (max-width:1099px)
+{
+    .projects
+    {
+    box-shadow: 0px -20px 45px 100px var(--background) ;
+
+    }
+}
+
+@media (max-width:822px)
+{
+    .project-list
+    {
+        margin: 50px 10%;
+    }
+    .projects-heading
+    {   
+        padding: 0 10%;
+        
+    }
+}
+@media (max-width:415px)
+{
+    .project-list
+    {
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    }
+    .project{
+        min-height: 270px;
+    }
+    .projects-heading h1
+    {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width:375px)
+{
+    .project-title
+    {
+        font-size: 3.2rem;
+    }
+    .projects-heading h1
+    {
+        font-size: 2.1rem;
+    }
+    .project-list
+    {
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    }
+    .project{
+        min-height: 250px;
+    }
+}
+@media (max-width:321px)
+{
+    .project-list
+    {
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+    .project{
+        min-height: 200px;
+    }
+    .project-list
+    {
+        margin: 50px 15%;
+    }
+    .projects-heading h1
+    {
+        font-size: 1.5rem;
+    }
+    .projects-heading p
+    {
+        font-size: 0.7rem;
+    }
+    .project-title
+    {
+        font-size: 2.5rem;
+    }
 }

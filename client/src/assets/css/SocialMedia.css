@@ -2,8 +2,9 @@
 {
     margin-top: 40px;
     width: 100vw;
+    overflow-x: hidden;
     z-index: inherit;
-    z-index: 2;
+    z-index: 4;
     position: relative;
     color: white;
     display: flex;
@@ -99,8 +100,10 @@
     top: -5px;
     opacity: 0.3;
 }
-
-
+.contact
+{
+    overflow-y: hidden;
+}
 .contact-info a{
     color: white;
     font-size: 2rem;
@@ -112,7 +115,7 @@
 }
 .contact-info
 {
-    margin: 30px 5%;
+    margin: 30px 5% 50px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -127,5 +130,94 @@ span.ya
     font-size: 23rem;
     font-weight: 500;
     opacity: 0.1;
-    z-index: 0;
+    z-index: 2;
+}
+
+@media (max-width:822px)
+{
+    .social-heading
+    {   
+        padding: 0 10%;
+        
+    }
+    .social-list
+    {
+        margin: 50px 10% 70px;
+    }
+    span.ya
+    {
+        right: -13%;
+        top: -35%;
+        font-size: 17rem;
+    }
+    .contact-info
+    {
+        margin: 30px 5% 50px 10%;
+    }
+    .contact-info a
+    {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:415px)
+{
+    span.ya
+    {
+        right: -20%;
+        top: -10%;
+        font-size: 12rem;
+    }
+    .contact-info a
+    {
+        font-size: 1.1rem;
+    }
+    .social-heading h1
+    {
+        font-size: 2.3rem;
+    }
+    .contact-info
+    {
+        margin: 10px 5% 50px 10%;
+    }
+    .social-list
+    {
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
+}
+@media (max-width:375px)
+{
+    .social-heading h1
+    {
+        font-size: 2.1rem;
+    }
+    .contact-info a
+    {
+        font-size: 1rem;
+    }
+    span.ya
+    {
+        right: -20%;
+        top: 5%;
+        font-size: 12rem;
+    }
+    .contact-info
+    {
+        margin: 0px 5% 50px 10%;
+    }
+}
+@media (max-width:321px)
+{
+    .contact-info a
+    {
+        font-size: 0.7rem;
+    }
+    .social-heading h1
+    {
+        font-size: 1.5rem;
+    }
+    .contact-info
+    {
+        margin: 10px 5% 50px 15%;
+    }
+    
 }
