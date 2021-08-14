@@ -38,3 +38,42 @@ a
 {
   text-decoration: none;
 }
+
+.visitorCount
+{
+  display: flex;
+  width: 100vw;
+  max-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+  flex-direction: row;
+}
+.visitorCount h3
+{
+  color: white;
+  margin: auto 20px;
+  font-size: 1.2rem;
+}
+
+.lmTRsh a
+{
+  display: none !important;
+}
+.counter, .kROLya
+{
+  /* transform: scale(0.95); */
+  max-width: 100vw !important;
+}
+
+@media (max-width:700px)
+{
+  .visitorCount{
+    flex-direction: column;
+    margin: 40px 0;
+  }
+  .visitorCount h3
+  {
+    margin: 20px auto;
+  }
+}

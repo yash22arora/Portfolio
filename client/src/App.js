@@ -4,6 +4,7 @@ import ContactMe from './components/Constact';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
 import SocialMedia from './components/SocialMedia';
+import VisitorCount from './components/VisitorCount';
 
 function App() {
   
@@ -53,6 +54,7 @@ function App() {
       <Projects projects={projects}/>
       <SocialMedia/>
       <ContactMe/>
+      {/* <VisitorCount/> */}
     </div>
   );
 }
