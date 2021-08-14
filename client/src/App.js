@@ -24,7 +24,7 @@ function App() {
     },
     {
       title:"Servatom",
-      body:"The website for Servatom, an organisation of creative people",
+      body:"The website for Servatom, an organisation of enthusiastic techies.",
       techStack: ["React", "Github API"],
       github:"https://github.com/Servatom",
       external:"https://servatom.com/"
