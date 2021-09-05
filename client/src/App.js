@@ -14,7 +14,7 @@ function App() {
       body:"A note-making webapp with an elegant and intuitive UI",
       techStack: ["React", "API", "Django"],
       github:"https://github.com/yash22arora/notefy",
-      external:""
+      external:"https://notefy.servatom.com/"
     },
     {
       title:"Amazon UX Case Study",
