@@ -10,6 +10,13 @@ function App() {
   
   const projects = [
     {
+      title:"Shealth", 
+      body:"An online solution to organise your medical history and give your doctors secured access to your records",
+      techStack: ["React", "API", "Django"],
+      github:"https://github.com/yash22arora/Shealth/",
+      external:"https://shealth.servatom.com/"
+    },
+    {
       title:"Notefy", 
       body:"A note-making webapp with an elegant and intuitive UI",
       techStack: ["React", "API", "Django"],
