@@ -10,6 +10,13 @@ function App() {
   
   const projects = [
     {
+      title:"30 Days GCP Leaderboard", 
+      body:"Made a Google themed website showing leaderboard for the students of Thapar participating in the 30 days of Google Cloud Challenge, with graphs and tables and much more!",
+      techStack: ["React", "ChartJs 2.0", "API"],
+      github:"https://github.com/yash22arora/30DaysOfCloudLeaderBoard",
+      external:"https://30daysofgcp.dsctiet.tech/"
+    },
+    {
       title:"Shealth", 
       body:"An online solution to organise your medical history and give your doctors secured access to your records",
       techStack: ["React", "API", "Django"],
