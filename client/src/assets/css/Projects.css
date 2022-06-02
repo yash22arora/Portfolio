@@ -58,7 +58,7 @@
     background-image: linear-gradient(rgb(147, 94, 245) 0%, rgb(237,148,204) 100%);
 }
 
-.project-wrapper:hover > .project
+.project-wrapper:hover .project
 {
 
     color: white;
@@ -81,11 +81,11 @@
     z-index: -1;
     display: none;
 }
-.project-wrapper:hover > .border
+.project-wrapper:hover .border
 {
     display: block;
 }
-.project-wrapper:hover > .links a
+.project-wrapper:hover .links a
 {
     background-color: black;
 }
@@ -142,11 +142,11 @@
     display: none;
 }
 
-.project-wrapper:hover > .project > .project-text > .project-body
+.project-wrapper:hover .project-body
 {
     display: block;
 }
-.project-wrapper:hover > .project > .project-text > .project-title
+.project-wrapper:hover .project-title
 {
     font-size: 3.3rem;
 }
@@ -208,11 +208,13 @@
 {
     .project-title
     {
-        font-size: 3.2rem;
+        font-size: 2.3rem;
+        text-align: center;
     }
-    .project-wrapper:hover > .project > .project-text > .project-title
+    .project-wrapper:hover .project-title
     {
-        font-size: 2.9rem;
+        font-size: 2rem;
+        text-align: left;
     }
     .project-body
     {
@@ -253,10 +255,12 @@
     }
     .project-title
     {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
+        text-align: center;
     }
-    .project-wrapper:hover > .project > .project-text > .project-title
+    .project-wrapper:hover .project-title
     {
-        font-size: 2.1rem;
+        font-size: 2rem;
+        text-align: left;
     }
 }
