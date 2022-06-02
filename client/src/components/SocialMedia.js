@@ -9,6 +9,10 @@ const SocialMedia=()=>
             link:"https://github.com/yash22arora"
         },
         {
+            title:"Medium",
+            link:"https://medium.com/@yashvardhanarora",
+        },
+        {
             title:"Linkedin",
             link:"https://linkedin.com/in/yashvardhan-arora"
         },

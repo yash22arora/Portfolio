@@ -10,18 +10,19 @@ function App() {
   
   const projects = [
     {
+      title: "Podcasts Page",
+      body: "Designed and coded the Podcasts page for the DSC official website from scratch. Integrated the Anchor player to play any podcast directly from the page.",
+      techStack: ["React", "API", "CSS"],
+      github: "https://github.com/developer-student-club-thapar/officialWebsite/tree/master/client/src/pages/Podcasts",
+      external: "https://dsctiet.tech/#/podcast",
+
+    },
+    {
       title:"30 Days GCP Leaderboard", 
       body:"Made a Google themed website showing leaderboard for the students of Thapar participating in the 30 days of Google Cloud Challenge, with graphs and tables and much more!",
       techStack: ["React", "ChartJs 2.0", "API"],
       github:"https://github.com/yash22arora/30DaysOfCloudLeaderBoard",
       external:"https://30daysofgcp.dsctiet.tech/"
-    },
-    {
-      title:"Shealth", 
-      body:"An online solution to organise your medical history and give your doctors secured access to your records",
-      techStack: ["React", "API", "Django"],
-      github:"https://github.com/yash22arora/Shealth/",
-      external:"https://shealth.servatom.com/"
     },
     {
       title:"Notefy", 
@@ -50,6 +51,13 @@ function App() {
       techStack: ["React", "MongoDB", "NodeJs"],
       github:"https://github.com/OWASP-STUDENT-CHAPTER/CTF",
       external:"https://drive.google.com/drive/folders/1GPvQykH30aIUUadY-kLmG-4XRcKDlarB?usp=sharing"
+    },
+    {
+      title:"Shealth", 
+      body:"An online solution to organise your medical history and give your doctors secured access to your records",
+      techStack: ["React", "API", "Django"],
+      github:"https://github.com/yash22arora/Shealth/",
+      external:"https://shealth.servatom.com/"
     },
     {
       title:"Second Hand",

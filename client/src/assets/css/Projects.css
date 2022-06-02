@@ -133,8 +133,17 @@
 }
 .project-title
 {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     margin: 0;
+}
+.viewAll
+{
+    margin: 15px auto 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-bottom: 2px dashed grey;
+    color: rgb(209, 209, 209);
 }
 .project-body
 {
